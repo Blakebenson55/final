@@ -1,0 +1,54 @@
+.center {
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 0;
+  }
+
+  .header {
+    font-size: 50px;
+    color: white;
+    z-index: 4;
+    position: fixed;
+    top: 2%;
+    left: 5%;
+  }
+
+  .ordlis{
+    float: right;
+  
+    z-index: 3;
+    position: fixed;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 10px;
+    right: 0%;
+    top: 210px;
+    color: blue;
+    background-color: #86b3e0;
+  }
+
+  .vid{
+    z-index: 3;
+    position: fixed;
+    top: 15%;
+  }
+
+  .indbg{
+    background-color:#86b3e0;
+  }
+
+  .pic{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 150px;
+  }
+
+  .tab{
+    position: absolute;
+    top: 0px;
+    z-index: 101;
+  }
